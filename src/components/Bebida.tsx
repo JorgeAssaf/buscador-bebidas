@@ -1,4 +1,4 @@
-//ts-ignore
+// @ts-nocheck
 import {
   Box,
   Button,
@@ -32,8 +32,10 @@ const Bebida = () => {
   const ingredientes = () => {
     let ing: Array<String> = []
     for (let i = 1; i < 16; i++) {
+
       if (details[0][`strIngredient${i}`]) {
         ing.push(
+
           <li>
             {details[0][`strIngredient${i}`]} {details[0][`strMeasure${i}`]}
           </li>
