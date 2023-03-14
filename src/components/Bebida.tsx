@@ -116,7 +116,7 @@ const Bebida = () => {
                   Ingredientes
                 </Text>
 
-                <Box fontWeight='600' mx='5'>
+                <Box fontWeight='400' mx='5'>
                   <ul key={detail.idDrink}>{ingredientes()}</ul>
                 </Box>
               </ModalBody>

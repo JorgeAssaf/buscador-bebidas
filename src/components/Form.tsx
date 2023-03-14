@@ -46,7 +46,7 @@ const Form = () => {
       >
         <Box>
           <FormControl isRequired>
-            <FormLabel>Nombre de la Bebida</FormLabel>
+            <FormLabel  >Nombre de la Bebida</FormLabel>
             <Input
               type='text'
               value={busqueda.nombre}
