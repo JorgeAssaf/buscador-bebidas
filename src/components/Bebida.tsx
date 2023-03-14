@@ -1,4 +1,5 @@
 // @ts-nocheck
+import { Fragment } from 'react'
 import {
   Box,
   Button,
@@ -15,7 +16,6 @@ import {
   Text,
   useDisclosure,
 } from '@chakra-ui/react'
-import { Fragment } from 'react'
 import { useBebida } from '../store/zustand'
 
 const Bebida = () => {

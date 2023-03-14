@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import {
   Box,
   Button,
@@ -7,8 +8,8 @@ import {
   Input,
   Select,
 } from '@chakra-ui/react'
-import { useEffect, useState } from 'react'
 import { toast } from 'react-hot-toast'
+
 import { useBebida, useCategoria } from '../store/zustand'
 
 const Form = () => {
