@@ -57,7 +57,7 @@ const Form = () => {
           </FormControl>
         </Box>
         <Box>
-          <FormControl isRequired>
+          <FormControl>
             <FormLabel>Categoría</FormLabel>
 
             <Select
